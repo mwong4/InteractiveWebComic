@@ -1,7 +1,20 @@
 body {
 	font-family: Helvetica;
+	color: black;
+}
+
+p {
+	font-size: 20px;
 }
 
 .header {
-	background-color: blue;
+	font-family: Helvetica;
+	color: white;
+	text-align: center;
+	font-size: 75px;
+}
+
+#mainHeader {
+	background-image: url(Blendergreenfield.png);
+	padding: 500px 100px;
 }
