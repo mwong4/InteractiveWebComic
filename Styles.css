@@ -11,7 +11,7 @@ body {
 	color: black;
 	overflow: scroll;
 	color: white;
-text-align: center;
+	text-align: center;
 }
 
 /* Style all pharagraphs */
@@ -25,6 +25,16 @@ p {
 	color: white;
 	text-align: center;
 	font-size: 75px;
+	background-position: center center;
+}
+
+/* Style the secondary header */
+.secondHeader {
+	text-align: left;
+	font-size: 60px;
+	font-weight: thin;
+	padding-left: 30px;
+	border-bottom: 2px solid;
 }
 
 /* Add the green background to the top navigation bar */
@@ -38,7 +48,7 @@ p {
 	float: left;
 	Color: #f2f2f2;
 	background-color: #4CAF50;
-	text-allign: center;
+	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
@@ -62,6 +72,7 @@ p {
 #mainHeader {
 	background-image: url(Blendergreenfield.png);
 	padding: 500px 100px 400px 100px;
+	background-posiiton: center center;
 	margin: 30px;
 }
 
