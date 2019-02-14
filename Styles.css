@@ -29,6 +29,11 @@ p {
 	background-position: center center;
 }
 
+#teamDescription{
+	padding: 2% 15%;
+	margin: 2% 10%;
+}
+
 /* Style the secondary header */
 .secondHeader {
 	text-align: left;
