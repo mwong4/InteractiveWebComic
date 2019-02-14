@@ -11,11 +11,12 @@ body {
 	color: black;
 	overflow: scroll;
 	color: white;
-text-align: center;
+	text-align: center;
 }
 
 /* Style all pharagraphs */
 p {
+	font-family: Helvetica;
 	font-size: 20px;
 }
 
@@ -25,7 +26,45 @@ p {
 	color: white;
 	text-align: center;
 	font-size: 75px;
+	background-position: center center;
 }
+
+/* Style the secondary header */
+.secondHeader {
+	text-align: left;
+	font-size: 60px;
+	font-weight: thin;
+	padding-left: 30px;
+	border-bottom: 2px solid;
+}
+
+/* Styling the header for the team page */
+/*
+h3 .teamText {
+	font-family: Helvetica;
+	font-size: 18px;
+	text-align: left;
+	padding-left: 40%;
+	
+}
+*/
+
+/* Styling the header for the team page */
+.teamHeader {
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: left;
+	padding-left: 13%;
+}
+
+ul {
+    /*width: 70%;*/
+    	padding-left: 16%;
+	text-align: left
+}
+
 
 /* Add the green background to the top navigation bar */
 .topnav {
@@ -38,7 +77,7 @@ p {
 	float: left;
 	Color: #f2f2f2;
 	background-color: #4CAF50;
-	text-allign: center;
+	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
@@ -62,5 +101,48 @@ p {
 #mainHeader {
 	background-image: url(Blendergreenfield.png);
 	padding: 500px 100px 400px 100px;
+	background-posiiton: center center;
 	margin: 30px;
+}
+
+/* The contact forum */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+	color: black;
+	background-color: white;
+	width: 100%; /* Full width */
+	padding: 12px; /* some padding */
+	border: 1px solid #ccc /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical; /* Allow the user to vertically resize the textare (not horizontally) */
+}
+
+select option {
+	color: white;
+}
+
+/* Style the submit button with a specific backgroundcolor etc */
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+	background-color: #45A049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+	border-radius: 5px;
+	background=color: #FFFFFF
+	padding: 20px;
 }
