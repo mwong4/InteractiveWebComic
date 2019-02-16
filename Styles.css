@@ -27,6 +27,19 @@ p {
 	background-position: center center;
 }
 
+#teamInformation {
+	width: 100px;
+	float:left;
+}
+
+#teamSymbols{
+	width: 100px;
+		float:left;
+}
+
+#teamSymbols img{
+	width: 100px;
+}
 #teamDescription{
 	padding: 2% 10%;
 	margin: 2% 10%;
@@ -37,6 +50,10 @@ p {
 	height: 100px;
 	margin-right: 10px;
 	float: left;
+}
+.child_teamInformation {
+	float: left;
+	margin-right: 5px;
 }
 
 .button {
