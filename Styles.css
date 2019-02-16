@@ -32,6 +32,31 @@ p {
 	margin: 2% 10%;
 }
 
+#parent_teamSymbol, #parent_teamInformation{
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+	float: left;
+}
+
+.button {
+	border-radius: 4px;
+	color: #4CAF50;
+	display: block;
+	font-weight: 700;
+	width: 200px;
+	padding: 20px;
+	margin: 30px auto;
+	border: 1px solid;
+	border-color: #FFF;
+}
+
+.button:hover {
+	background-color: #4CAF50;
+	border: 1px solid #4CAF50;
+	color: #FFF;
+}
+
 /* Style the secondary header */
 .secondHeader {
 	text-align: left;
