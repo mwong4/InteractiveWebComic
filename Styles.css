@@ -40,10 +40,6 @@ p {
 #teamSymbols img{
 	width: 100px;
 }
-#teamDescription{
-	padding: 2% 10%;
-	margin: 2% 10%;
-}
 
 #parent_teamSymbol, #parent_teamInformation{
 	width: 100px;
@@ -72,6 +68,11 @@ p {
 	background-color: #4CAF50;
 	border: 1px solid #4CAF50;
 	color: #FFF;
+}
+
+.pharagraph {
+	padding: 2% 10%;
+	margin: 2% 10%;
 }
 
 /* Style the secondary header */
