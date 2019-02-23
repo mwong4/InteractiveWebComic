@@ -1,5 +1,6 @@
 <script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
 <script>
+  // TODO: Replace with your project's customized code snippet
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyCoOktMj4ADFh6VYuToMKJhHqHToDXHr7Y",
