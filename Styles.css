@@ -15,7 +15,7 @@ body {
 /* Style all paragraphs */
 p {
 	font-family: Helvetica;
-	font-size: 20px;
+	font-size: 1.5vw;
 }
 
 /* Style the unorganized lists*/
@@ -69,12 +69,20 @@ input[type=submit]:hover {
 	background-color: #45A049;
 }
 
+h3 {
+	font-size: 2.2vw;
+}
+
+h2 {
+	font-size: 1.7vw;
+}
+
 /* Style all headers */
 .header {
 	font-family: Helvetica;
 	color: white;
 	text-align: center;
-	font-size: 75px;
+	font-size: 6.2vw;
 	background-position: center center;
 }
 
@@ -90,6 +98,7 @@ input[type=submit]:hover {
 	color: #4CAF50;
 	display: block;
 	font-weight: 700;
+	font-size: 1.3vw;
 	width: 200px;
 	padding: 20px;
 	margin: 30px auto;
@@ -113,7 +122,7 @@ input[type=submit]:hover {
 /* Style the secondary header */
 .secondHeader {
 	text-align: left;
-	font-size: 60px;
+	font-size: 4.0vw;
 	font-weight: thin;
 	padding-left: 30px;
 	border-bottom: 2px solid;
