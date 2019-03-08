@@ -38,10 +38,10 @@ h3 {
 	background-position: center center;
 }
 
-/* Style specssssifically the main header for the home page */
+/* Style specssssifically the main header text for the home page */
 .headerText {
 	background-color: rgba(0, 0, 0, 0.6);
-	padding: 1.4% 0;
+	padding: 1.0% 0;
 	width: 100%;
 	text-align: center;
 	margin-left: auto;
@@ -50,18 +50,24 @@ h3 {
 	font-weight: normal;
 }
 
-.secondHeader {
+/* Style specssssifically the secondary header div for the home page */
+.headerTheme {
 	background-color: rgba(0, 0, 0, 0.6);
+	height: 80px;
+	margin-bottom: 2%;
+}
+
+.secondHeader {
+	background-color: rgba(0, 0, 0, 0.0);
 	text-align: left;
-	padding: 1.4% 0;
+	padding: 1.0% 0;
 	font-size: 2.1vw;
 	font-weight: normal;
 	text-align: center center center center;
-	padding-left: 4%;
-	width: 100%;
+	padding-left: 3%;
+	width: 35%;
 	border-bottom: 1px solid;
 }
-
 /* Style the buttons */
 .button {
 	border-radius: 4px;
