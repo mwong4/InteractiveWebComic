@@ -106,11 +106,24 @@ h3 {
 	Color: #f2f2f2;
 	background-color: rgba(0, 0, 0, 0.6);
 	text-align: center;
-	padding: 0.4% 16px;
+	padding: 0.4% 1.2%;
 	text-decoration: none;
 	font-size: 1.0vw;
 	margin: 4% 1% 0 1%;
 	width: 4%;
+}
+
+/* Style the logo inside the navigation bar */
+#logo {
+	float: left;
+	Color: #f2f2f2;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 1% 1%;
+	height: 5%;
+	width: 5%;
+	text-decoration: none;
+	font-size: 1.0vw;
+	margin: 1% 1% 0 1%;
 }
 
 /* Change the color of link on hover */
@@ -127,7 +140,7 @@ h3 {
 }
 
 #homeButton {
-	margin-left: 8%;
+	margin-left: 0.3%;
 }
 																									
 
