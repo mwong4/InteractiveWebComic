@@ -9,7 +9,7 @@ body {
 }
 
 p {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.5);
 	font-family: 'Trebuchet MS';
 	width: 95%;
 	padding: 1.4% 2% 10% 4%;
@@ -40,7 +40,7 @@ h3 {
 
 /* Style specssssifically the main header text for the home page */
 .headerText {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.5);
 	padding: 1.0% 0;
 	width: 100%;
 	text-align: center;
@@ -54,7 +54,7 @@ h3 {
 
 /* Style specssssifically the secondary header div for the home page */
 .headerTheme {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.5);
 	margin-bottom: 2%;
 	padding-bottom: 0.002%;
 }
@@ -102,7 +102,7 @@ h3 {
 .topnav a {
 	float: left;
 	Color: #f2f2f2;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.5);
 	text-align: center;
 	padding: 0.4% 1.2%;
 	text-decoration: none;
@@ -115,7 +115,7 @@ h3 {
 #logo {
 	float: left;
 	Color: #f2f2f2;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.5);
 	padding: 1% 1%;
 	height: 5%;
 	width: 5%;
@@ -126,7 +126,7 @@ h3 {
 
 /* Change the color of link on hover */
 .topnav a:hover {
-	background-color: rgba(255, 255, 255, 0.6);
+	background-color: rgba(255, 255, 255, 0.5);
 	color: #4CAF50;	
 }
 
@@ -139,6 +139,12 @@ h3 {
 
 #homeButton {
 	margin-left: 0.3%;
+}
+
+#gradiant {
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
+	width: 70%;
+	height: 1%;
 }
 																									
 
