@@ -109,6 +109,18 @@ p {
 	display: table;
 }
 
+.storyImage {
+	padding: auto;
+	width: 97%;
+	height: 97%;
+	margin: auto 0 auto 1%;
+}
+
+.storyImageHolder {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 6%;
+}
+
 /* Style the buttons */
 .button {
 	border-radius: 4px;
@@ -117,8 +129,8 @@ p {
 	font-weight: 700;
 	font-size: 1.3vw;
 	width: 93%;
-	padding: 9% 20px;
-	margin: 10px auto;
+	padding: 9.5% 2%;
+	margin: 0 auto 2% auto;
 	border: 3px solid;
 	border-color: #191919;
 	background-color: #191919;
