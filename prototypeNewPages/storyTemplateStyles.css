@@ -23,7 +23,7 @@ p {
 }
 
 .storyTextTwo {
-	padding: 16.4% 6%;
+	padding: 13.5% 6%;
 	margin: 0;
 }
 
@@ -129,7 +129,7 @@ p {
 	float: left;
 	width: 24%;
 	padding: 0.5%;
-	margin-top: 0.7%;
+	margin-top: 0;
 }
 
 .rowTwo::after {
@@ -147,7 +147,7 @@ p {
 
 .storyImageHolderTwo {
 	background-color: rgba(0, 0, 0, 0.5);
-	padding: 11% 6%;
+	padding: 8% 6%;
 }
 /* Style the buttons */
 .button {
@@ -157,8 +157,6 @@ p {
 	font-weight: 700;
 	font-size: 1.3vw;
 	width: 93%;
-	padding: 9.5% 2%;
-
 	border: 3px solid;
 	border-color: #191919;
 	background-color: #191919;
@@ -166,11 +164,13 @@ p {
 }
 
 .choicesOne {
-	margin: 0 auto 2% auto;
+	margin: 0 auto 0% auto;
+	padding: 10.2% 2%;
 }
 
 .choicesTwo {
-	margin: 0 auto 4.4% auto;
+	margin: 0 auto 0% auto;
+	padding: 10% 2%;
 }
 
 /* Styling the hovered buttons */
