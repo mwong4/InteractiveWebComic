@@ -27,6 +27,11 @@ p {
 	margin: 0;
 }
 
+.storyTextSecondThree {
+	padding: 7.5% 6%;
+	margin: 0;
+}
+
 /* Style specifically the main header area for the home page */
 .mainHeader {
 	background-image: url(desert.jpg);
@@ -149,6 +154,53 @@ p {
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 8% 6%;
 }
+
+.columnThree {
+	float: left;
+	width: 25%;
+	padding: 0.5%;
+	margin-top: 0;
+}
+
+.rowThree::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.storyImageThree {
+	padding: auto;
+	width: 97%;
+	height: 97%;
+	margin: auto 0 auto 1%;
+}
+
+.storyImageHolderThree {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 8% 6%;
+}
+
+.thirdImageSpacing {
+	margin-left: 10%;
+}
+
+.columnSecondThree {
+	float: left;
+	width: 38.2%;
+	padding: 0.5%;
+	margin-top: 0;
+}
+
+.rowSecondThree::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.thirdOjectsSpacing {
+	margin-left: 10%;
+}
+
 /* Style the buttons */
 .button {
 	border-radius: 4px;
@@ -171,6 +223,11 @@ p {
 .choicesTwo {
 	margin: 0 auto 0% auto;
 	padding: 10% 2%;
+}
+
+.choicesSecondThree{
+	margin: 0 auto 0% auto;
+	padding: 3.9% 2%;
 }
 
 /* Styling the hovered buttons */
@@ -220,5 +277,3 @@ p {
 	height: 30px;
 	display: inline-block;
 }
-																									
-
