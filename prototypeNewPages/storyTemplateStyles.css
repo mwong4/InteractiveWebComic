@@ -216,8 +216,25 @@ p {
 }
 
 .choicesOne {
-	margin: 0 auto 0% auto;
+	margin: 25% 0%;
 	padding: 10.2% 2%;
+}
+
+.onechoice {
+	margin: 25% 0%;
+	padding: 10.2% 2%;
+}
+
+#topButton {
+	margin-top: 15%;
+	padding: 10.2% 2%;
+                 
+}
+
+#bottomButton {
+	margin-bottom: 25%;
+	padding: 10.2% 2%;
+                 
 }
 
 .choicesTwo {
