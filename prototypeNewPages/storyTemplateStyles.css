@@ -203,7 +203,6 @@ p {
 
 /* Style the buttons */
 .button {
-	border-radius: 4px;
 	color: #4CAF50;
 	display: block;
 	font-weight: 700;
@@ -235,6 +234,14 @@ p {
 	background-color: #4CAF50;
 	border: 3px solid #4CAF50;
 	color: #FFF;
+}
+
+.roundedTop {
+	border-radius: 4px 4px 0 0;
+}
+
+.roundedBottom {
+	border-radius: 0 0 4px 4px;
 }
 
 #homeButton {
