@@ -1,0 +1,303 @@
+
+
+/* Style the general body */
+body {
+	background-color: #333;
+	overflow: auto;
+	font-family: 'Trebuchet MS';
+	color: white;
+}
+
+
+p {
+	font-family: 'Trebuchet MS';
+	font-size: 1.3vw; 
+	background-color: rgba(0, 0, 0, 0.5);
+	font-weight: normal;
+}
+
+
+.storyTextOne {
+	padding: 20% 8%;
+	margin: 0;
+}
+
+.storyTextTwo {
+	padding: 13.5% 6%;
+	margin: 0;
+}
+
+.storyTextSecondThree {
+	padding: 7.5% 6%;
+	margin: 0;
+}
+
+/* Style specifically the main header area for the home page */
+.mainHeader {
+	background-image: url(desert.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	width:100%;
+	height:100%;
+	
+}
+
+/* Style specifically the main header text for the home page */
+.headerText {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 1.0% 0;
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 2.5vw;
+	font-weight: normal;
+	position: absolute;
+    bottom: 15%;
+}
+
+/* Style specifically the secondary header div for the home page */
+.headerTheme {
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-bottom: 2%;
+	padding-bottom: 0.002%;
+}
+
+.secondHeader {
+	background-color: rgba(0, 0, 0, 0.0);
+	text-align: left;
+	padding: 1.0% 0;
+	font-size: 2.1vw;
+	font-weight: normal;
+	text-align: center center center center;
+	padding-left: 3%;
+	width: 35%;
+	border-bottom: 1px solid;
+}
+
+/* Add the green background to the top navigation bar */
+.topnav {
+	overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	Color: #f2f2f2;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	padding: 0.4% 1.2%;
+	text-decoration: none;
+	font-size: 1.0vw;
+	margin: 1.5% 1% 2% 1%;
+	width: 4%;
+}
+
+/* Change the color of link on hover */
+.topnav a:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #191919;	
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.columnOne {
+	float: left;
+	width: 31%;
+	padding: 1%;
+}
+
+.rowOne::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.storyImageOne {
+	padding: auto;
+	width: 97%;
+	height: 97%;
+	margin: auto 0 auto 1%;
+}
+
+.storyImageHolderOne {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 6%;
+}
+
+.columnTwo {
+	float: left;
+	width: 24%;
+	padding: 0.5%;
+	margin-top: 0;
+}
+
+.rowTwo::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.storyImageTwo {
+	padding: auto;
+	width: 97%;
+	height: 97%;
+	margin: auto 0 auto 1%;
+}
+
+.storyImageHolderTwo {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 8% 6%;
+}
+
+.columnThree {
+	float: left;
+	width: 25%;
+	padding: 0.5%;
+	margin-top: 0;
+}
+
+.rowThree::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.storyImageThree {
+	padding: auto;
+	width: 97%;
+	height: 97%;
+	margin: auto 0 auto 1%;
+}
+
+.storyImageHolderThree {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 8% 6%;
+}
+
+.thirdImageSpacing {
+	margin-left: 10%;
+}
+
+.columnSecondThree {
+	float: left;
+	width: 38.2%;
+	padding: 0.5%;
+	margin-top: 0;
+}
+
+.rowSecondThree::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.thirdOjectsSpacing {
+	margin-left: 10%;
+}
+
+/* Style the buttons */
+.button {
+	color: #4CAF50;
+	display: block;
+	font-weight: 700;
+	font-size: 1.3vw;
+	width: 93%;
+	border: 3px solid;
+	border-color: #191919;
+	background-color: #191919;
+	text-align: center;
+}
+
+.choicesOne {
+	margin: 0% auto 0% auto;
+	padding: 10.2% 2%;
+}
+
+.oneChoice {
+	margin: 25% 0%;
+	padding: 10.2% 2%;
+}
+
+#topButton {
+	margin-top: 15%;
+	padding: 10.2% 2%;
+                 
+}
+
+#bottomButton {
+	margin-bottom: 25%;
+	padding: 10.2% 2%;
+                 
+}
+
+.choicesTwo {
+	margin: 0 auto 0% auto;
+	padding: 10% 2%;
+}
+
+.choicesSecondThree{
+	margin: 0 auto 0% auto;
+	padding: 3.9% 2%;
+}
+
+/* Styling the hovered buttons */
+.button:hover {
+	background-color: #4CAF50;
+	border: 3px solid #4CAF50;
+	color: #FFF;
+}
+
+.roundedTop {
+	border-radius: 4px 4px 0 0;
+}
+
+.roundedBottom {
+	border-radius: 0 0 4px 4px;
+}
+
+#homeButton {
+	margin-left: 0.3%;
+}
+
+/* Style the logo inside the navigation bar */
+#logo {
+	float: left;
+	Color: #f2f2f2;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 1% 1%;
+	height: 5%;
+	width: 5%;
+	text-decoration: none;
+	font-size: 1.0vw;
+	margin: 1% 1% 0 1%;
+}
+
+#topGradient {
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.0));
+	width: 85%;
+	margin-top: 2%;
+	margin-left: -1.0%;
+	height: 20px;
+	display: inline-block;
+}
+
+#middleGradient {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.5));
+	width: 100%;
+	margin-top: 5%;
+	height: 20px;
+	display:block;
+}
+
+#bottomGradient {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.0));
+	width: 100%;
+	height: 30px;
+	display: inline-block;
+}
