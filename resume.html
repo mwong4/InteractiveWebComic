@@ -24,7 +24,16 @@
  <!-- header -->
  
  <h2 class="secondHeader" > Resume your adventure <h2>
- 
+ <label for="country">Country</label>
+ <select id="lastCheckpoint" name="lastCheckpoint">
+ <option value="unknown">Choose a country</option>
+ <option value="fallPage.html">Fall Page</option>
+ <option value="canada">Canada</option>
+ <option value="usa">USA</option>
+   </select>
+  
+  <input class = button value = "Go" onclick="goToNewPage(document.lastCheckpoint)">
+
  <!-- body (without header) -->
  <div>
   <input type="text" name="lastpage" id="lastpage"/>
@@ -32,6 +41,14 @@
  
  <script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
  <script>
+   function goToPage(page)
+  {
+   var url = page.value;
+   if(url!=0){
+   window.open(url);
+   }
+  }
+  
        var lastPage = document.getElementById('email').value;
     
     // Initialize Firebase
