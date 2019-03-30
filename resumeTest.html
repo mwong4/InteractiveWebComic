@@ -4,10 +4,10 @@
 <!-- Header -->
 <head>
  <title>Square Square | Home</title>
- 
+
  <link rel="stylesheet" type="text/css" href="Styles.css">
 </head>
-  
+
   <!-- the navigation bar -->
   <div class="topnav">
 <!-- <a class="active" href="#home">Home</a> -->
@@ -20,9 +20,9 @@
 
   <!-- body -->
 <Body>
-  
+
  <!-- header -->
- 
+
  <h2 class="secondHeader" > Resume your adventure <h2>
  <label for="country">Country</label>
  <select id="lastCheckpoint" name="lastCheckpoint">
@@ -33,20 +33,20 @@
  <option value="firstFindPage.html">First Find</option>
  <option value="questionLifeChoicePage.html">Question Life Choices</option>
  <option value="underTheDesertPage.html">Under The desert</option>
- <option value="goingToVillageStealthily.html">Going to village stealthily</option>  
- <option value="tryAndClimb.html">Try And Climb</option>   
+ <option value="goingToVillageStealthily.html">Going to village stealthily</option>
+ <option value="tryAndClimb.html">Try And Climb</option>
  <option value="walkingToTown.html">Walking To Town</option>
  <option value="youArriveAtPrison.html">you arrive at prison</option>
- <option value="whatsYourName.html">What's Your Name</option> 
+ <option value="whatsYourName.html">What's Your Name</option>
  </select>
-  
-  <input class = button value = "Go" onclick="goToNewPage(document.lastCheckpoint)">
+
+  <button class="button" onclick="goToNewPage(document.lastCheckpoint)"> go</button>
 
  <!-- body (without header) -->
  <div>
   <input type="text" name="lastpage" id="lastpage"/>
  </div>
- 
+
  <script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
  <script>
    function goToPage(page)
@@ -56,9 +56,9 @@
    window.open(url);
    }
   }
-  
+
        var lastPage = document.getElementById('email').value;
-    
+
     // Initialize Firebase
     var config = {
    apiKey: "AIzaSyCoOktMj4ADFh6VYuToMKJhHqHToDXHr7Y",
