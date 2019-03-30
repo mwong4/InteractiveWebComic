@@ -26,8 +26,8 @@
  <h2 class="secondHeader" > Resume your adventure <h2>
  <label for="country">Country</label>
  <select id="lastCheckpoint" name="lastCheckpoint">
- <option value="exploreDesertPage.html>Explore desert</option>
- <option value="fallPage.html">Fall Page</option>
+ <option id="storyNav" value="exploreDesertPage.html>Explore desert</option>
+ <option value="playPages/fallPage.html">Fall Page</option>
  <option value="takeABreakPage.html">Take A Break</option>
  <option value="continueExplorationPage.html">Countinue Exploration</option>
  <option value="firstFindPage.html">First Find</option>
@@ -49,9 +49,11 @@
 
  <script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
  <script>
-   function goToPage(page)
+   function goToNewPage(page)
   {
-   var url = page.value;
+   var url = "playPages/fallPage.html";
+
+   alert($(#storyNav).value);
    if(url!=0){
    window.open(url);
    }
