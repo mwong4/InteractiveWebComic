@@ -18,6 +18,9 @@ p {
 	margin: 0 15%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+p .regular {
 	text-align: justify;
 }
 
@@ -25,6 +28,21 @@ h3 {
 	font-weight: normal;
 	font-size: 1.8vw;
 	text-align: center;
+}
+
+img {
+	width: 95%;
+	height: 80%;
+	float: center;
+	margin: 1% 1% 1% 2.5%;
+}
+
+.pictureHolder {
+	background-color: rgba(0, 0, 0, 1);
+	padding: 1% 1% 1% 1%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2%;
 }
 
 /* Style specifically the main header area for the home page */
@@ -123,6 +141,20 @@ h3 {
 	background-color: #4CAF50;
 	color: white;
 
+}
+
+.column {
+	float: left;
+	width: 17.8%;
+	margin: 1%;
+	background-color: rgba(0, 0, 0, 1);
+	
+}
+
+.rowOne::after {
+	content: "";
+	clear: both;
+	display: table;
 }
 
 #homeButton {
