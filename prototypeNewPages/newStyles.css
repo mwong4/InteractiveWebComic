@@ -18,6 +18,9 @@ p {
 	margin: 0 15%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+p .regular {
 	text-align: justify;
 }
 
@@ -25,6 +28,21 @@ h3 {
 	font-weight: normal;
 	font-size: 1.8vw;
 	text-align: center;
+}
+
+img {
+	width: 95%;
+	height: 80%;
+	float: center;
+	margin: 1% 1% 1% 2.5%;
+}
+
+.pictureHolder {
+	background-color: rgba(0, 0, 0, 1);
+	padding: 1% 1% 1% 1%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2%;
 }
 
 /* Style specifically the main header area for the home page */
@@ -125,6 +143,28 @@ h3 {
 
 }
 
+.column {
+	float: left;
+	width: 17.8%;
+	margin: 1%;
+	background-color: rgba(0, 0, 0, 1);
+	
+}
+
+.rowOne::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.about {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 20%;
+	margin: 1% 0%;
+	padding: 1% 0;
+}
+
 #homeButton {
 	margin-left: 0.3%;
 }
@@ -166,6 +206,50 @@ h3 {
 	width: 100%;
 	height: 30px;
 	display: inline-block;
+}
+
+/* The contact forum */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+	color: black;
+	background-color: white;
+	width: 100%; /* Full width */
+	padding: 12px; /* some padding */
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical; /* Allow the user to vertically resize the textare (not horizontally) */
+}
+
+/* Style the selection foldout... ie. pick your country */
+select option {
+	color: black;
+}
+
+/* Style the submit button with a specific backgroundcolor etc */
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+	background-color: #45A049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+	border-radius: 5px;
+	padding: 20px 20px 50px 20px;
+	margin: 0 20%;
+
 }
 																									
 
