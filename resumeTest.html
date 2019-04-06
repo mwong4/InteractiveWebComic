@@ -6,6 +6,7 @@
  <title>Square Square | Home</title>
 
  <link rel="stylesheet" type="text/css" href="Styles.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
   <!-- the navigation bar -->
@@ -24,10 +25,10 @@
  <!-- header -->
 
  <h2 class="secondHeader" > Resume your adventure <h2>
- <label for="country">Country</label>
+
  <select id="lastCheckpoint" name="lastCheckpoint">
- <option id="storyNav" value="exploreDesertPage.html>Explore desert</option>
- <option value="playPages/fallPage.html">Fall Page</option>
+ <option value="exploreDesertPage.html>Explore desert</option>
+ <option value="fallPage.html">Fall Page</option>
  <option value="takeABreakPage.html">Take A Break</option>
  <option value="continueExplorationPage.html">Countinue Exploration</option>
  <option value="firstFindPage.html">First Find</option>
@@ -40,39 +41,19 @@
  <option value="whatsYourName.html">What's Your Name</option>
  </select>
 
-  <button class="button" onclick="goToNewPage(document.lastCheckpoint)"> go</button>
+  <button class="button" > go</button>
 
  <!-- body (without header) -->
  <div>
   <input type="text" name="lastpage" id="lastpage"/>
  </div>
 
- <script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
+
  <script>
-   function goToNewPage(page)
-  {
-   var url = "playPages/fallPage.html";
+     $('.button').click(function() {
+       window.location.href = "prototypeNewPages/" + $('#lastCheckpoint').val();
+    });
 
-   alert($(#storyNav).value);
-   if(url!=0){
-   window.open(url);
-   }
-  }
 
-       var lastPage = document.getElementById('email').value;
-
-    // Initialize Firebase
-    var config = {
-   apiKey: "AIzaSyCoOktMj4ADFh6VYuToMKJhHqHToDXHr7Y",
-   authDomain: "squaresquared-8e4ab.firebaseapp.com",
-   databaseURL: "https://squaresquared-8e4ab.firebaseio.com",
-   projectId: "squaresquared-8e4ab",
-   storageBucket: "squaresquared-8e4ab.appspot.com",
-   messagingSenderId: "833259003920"
-    };
-   firebase.initializeApp(config);
  </script>
-</Body>
-
-
 </html>
