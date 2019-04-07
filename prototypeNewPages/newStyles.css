@@ -137,7 +137,22 @@ img {
 	font-size: 1.0vw;
 	width: 6%;
 	padding: 0.4% 0.8%;
-	margin: 1.5% auto 0 45%;
+	margin: 1.5% auto 0 38%;
+	border: 3px solid;
+	border-color: #191919;
+	background-color: #191919;
+	text-align: center;
+}
+
+#quickContinue {
+	border-radius: 4px;
+	color: #4CAF50;
+	display: block;
+	font-weight: 700;
+	font-size: 1.0vw;
+	width: 6%;
+	padding: 0.4% 0.8%;
+	margin: 1.5% auto 0 1%;
 	border: 3px solid;
 	border-color: #191919;
 	background-color: #191919;
@@ -145,7 +160,7 @@ img {
 }
 
 /* Styling the hovered buttons */
-.button:hover, #quickPlay:hover {
+.button:hover, #quickPlay:hover, #quickContinue:hover {
 	background-color: #4CAF50;
 	border: 3px solid #4CAF50;
 	color: #FFF;
