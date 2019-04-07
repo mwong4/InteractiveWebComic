@@ -4,13 +4,13 @@
 <!-- Header -->
 	<head>
 		<title>Square Square | Resume</title>
-		
+
 		<link rel="stylesheet" type="text/css" href="newStyles.css">
 	</head>
 
   <!-- body -->
 	<body>
-  
+
 		<!-- header -->
 		<div class="secondaryHeader">
 
@@ -23,55 +23,54 @@
 				<a href="contactPage.html">Contact</a>
 				<a href="aboutPage.html">About</a>
 			</div>
-			
-			
+
+
 			<h1 class="secondaryHeaderText">Resume</h1>
 				<div id="#secondaryMiddleGradient"></div>
-		
+
 
 		</div>
-		
+
 
 		<div id="bottomGradient"></div>
-		
+
 		<div class="headerTheme">
 			<h2 class="secondHeader" > Continue Your Adventure <h2>
 		</div>
 
 		<div class="container">
 			<select id="lastCheckpoint" name="lastCheckpoint">
-				<option value="exploreDesertPage.html>Explore desert</option>
-				<option value="fallPage.html">Fall Page</option>
-				<option value="continueExplorationPage.html">Countinue Exploration</option>
-				<option value="firstFindPage.html">First Find</option>
-				<option value="questionLifeChoicePage.html">Question Life Choices</option>
-				<option value="underTheDesertPage.html">Under The desert</option>
-				<option value="goingToVillageStealthily.html">Going to village stealthily</option>
-				<option value="tryAndClimb.html">Try And Climb</option>
+				<option value="exploreDesertPage.html">Explore desert</option>
+				<option value="Desert/fallPage.html">Fall Page</option>
+				<option value="Desert/continueExplorationPage.html">Countinue Exploration</option>
+				<option value="/firstFindPage.html">First Find</option>
+				<option value="desert/questionLifeChoicePage.html">Question Life Choices</option>
+				<option value="InitialFall/underTheDesertPage.html">Under The desert</option>
+				<option value="MainAfterFallRoute/goToVillageStealthily.html">Going to village stealthily</option>
+				<option value="InitialFall/tryAndClimb.html">Try And Climb</option>
 				<option value="walkingToTown.html">Walking To Town</option>
 				<option value="youArriveAtPrison.html">you arrive at prison</option>
 				<option value="whatsYourName.html">What's Your Name</option>
 				</select>
-				
+
 				 <button class="button" > go</button>
-				
+
 				<!-- body (without header) -->
 				<div>
 				<input type="text" name="lastpage" id="lastpage"/>
 				</div>
-				  
-				  
+
+
 				<script>
 					$('.button').click(function() {
 						window.location.href = "newPlayFiles/" + $('#lastCheckpoint').val();
 					});
-					   
+
 				</script>
 		</div>
 
-		
+
 	</Body>
 
 
 </html>
-
