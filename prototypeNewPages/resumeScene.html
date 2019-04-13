@@ -2,69 +2,73 @@
 
 <html>
 <!-- Header -->
-	<head>
-		<title>Square Square | Resume</title>
 
-		<link rel="stylesheet" type="text/css" href="newStyles.css">
-	</head>
-	<head>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		</head>
-  <!-- body -->
-	<body>
+<head>
+	<title>Square Square | Resume</title>
 
-		<!-- header -->
-		<div class="mainHeader">
+	<link rel="stylesheet" type="text/css" href="newStyles.css">
+</head>
 
-			<!-- the navigation bar -->
- 			<div class="topnav">
-				<img src="logosquaresuqaredgooderWHITE.png" alt="temporary plant logo" height="42" width="42" id="logo">
-				<div id="topGradient"></div>
-				<a href="index.html" id="homeButton">Home</a>
-				<a href="teamPage.html">Team</a>
-				<a href="contactPage.html">Contact</a>
-				<a href="aboutPage.html">About</a>
-			</div>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<!-- body -->
 
+<body>
 
-			<h1 class="headerText">Resume</h1>
-				<div id="middleGradient"></div>
+	<!-- header -->
+	<div class="mainHeader">
 
-
+		<!-- the navigation bar -->
+		<div class="topnav">
+			<img src="logosquaresuqaredgooderWHITE.png" alt="temporary plant logo" height="42" width="42" id="logo">
+			<div id="topGradient"></div>
+			<a href="index.html" id="homeButton">Home</a>
+			<a href="teamPage.html">Team</a>
+			<a href="contactPage.html">Contact</a>
+			<a href="aboutPage.html">About</a>
 		</div>
 
 
-		<div id="bottomGradient"></div>
+		<h1 class="headerText">Resume</h1>
+		<div id="middleGradient"></div>
 
-		<div class="headerTheme">
-			<h2 class="secondHeader" > Continue Your Adventure <h2>
-		</div>
 
-		<div class="container">
-			<select id="lastCheckpoint" name="lastCheckpoint">
-				<option value="exploreDesertPage.html>Explore desert</option>
-				<option value="desert/fallPage.html">Fall Page</option>
-				<option value="desert/continueExplorationPage.html">Countinue Exploration</option>
-				<option value="/firstFindPage.html">First Find</option>
-				<option value="desert/questionLifeChoicePage.html">Question Life Choices</option>
-				<option value="InitialFall/underTheDesertPage.html">Under The desert</option>
-				<option value="MainAfterFallRoute/goToVillageStealthily.html">Going to village stealthily</option>
-				<option value="InitialFall/tryAndClimb.html">Try And Climb</option>
-				<option value="walkingToTown.html">Walking To Town</option>
-				<option value="youArriveAtPrison.html">you arrive at prison</option>
-				<option value="whatsYourName.html">What's Your Name</option>
+	</div>
+
+
+	<div id="bottomGradient"></div>
+
+	<div class="headerTheme">
+		<h2 class="secondHeader"> Continue Your Adventure
+			<h2>
+	</div>
+
+	<div class="container">
+		<select id="lastCheckpoint" name="lastCheckpoint">
+			<option value="exploreDesertPage.html>Explore desert</option>
+				<option value="Desert/fallPage.html ">Fall Page</option>
+				<option value="Desert/continueExplorationPage.html ">Countinue Exploration</option>
+				<option value="firstFindPage.html ">First Find</option>
+				<option value="Desert/questionLifeChoicePage.html ">Question Life Choices</option>
+				<option value="InitialFall/underTheDesertPage.html ">Under The desert</option>
+				<option value="MainAfterFallRoute/goToVillageStealthily.html ">Going to village stealthily</option>
+				<option value="InitialFall/tryAndClimb.html ">Try And Climb</option>
+				<option value="walkingToTown.html ">Walking To Town</option>
+				<option value="youArriveAtPrison.html ">you arrive at prison</option>
+				<option value="whatsYourName.html ">What's Your Name</option>
 				</select>
 
-				 <button class="button" > go</button>
+				 <button class="button " > go</button>
 
 				<!-- body (without header) -->
 				<div>
-				<input type="text" name="lastpage" id="lastpage"/>
+				<input type="text " name="lastpage " id="lastpage "/>
 				</div>
 
 
 				<script>
-					$('.button').click(function() {
+					$('.button').click(function () {
 						window.location.href = "newPlayFiles/" + $('#lastCheckpoint').val();
 					});
 
