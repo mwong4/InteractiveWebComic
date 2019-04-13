@@ -201,6 +201,7 @@ img {
 .column {
 	float: left;
 	width: 17.8%;
+	height: 350px;
 	margin: 1%;
 	background-color: rgba(0, 0, 0, 1);
 	
@@ -218,10 +219,15 @@ img {
 
 .about {
 	background-color: rgba(0, 0, 0, 0.5);
-	width: 100%;
+	width: 50%;
 	height: 20%;
-	margin: 1% 0%;
-	padding: 1% 0;
+	margin: 1% 1%;
+	padding: 1% 0%;
+}
+
+.aboutText {
+	width: 44%;
+	margin: 1%;
 }
 
 #homeButton {
