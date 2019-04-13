@@ -219,15 +219,36 @@ img {
 
 .about {
 	background-color: rgba(0, 0, 0, 0.5);
-	width: 50%;
-	height: 20%;
-	margin: 1% 1%;
+	width: 95%;
+	height: 50%;
+	margin: 3% 1% 1% 1%;
 	padding: 1% 0%;
 }
 
+#topMargin {
+	margin-top: 2%
+}
+
+#customHeight {
+	padding-bottom: 17%;
+}
+
 .aboutText {
-	width: 44%;
+	width: 89%;
 	margin: 1%;
+	height: 50%;
+}
+
+.imageOne, .imageTwo {
+	width: 35%;
+	height: 35%;
+	float: left;
+	
+}
+
+.floatLeft {
+	float: left;
+	width: 45%;
 }
 
 #homeButton {
