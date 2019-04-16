@@ -222,15 +222,26 @@ img {
 	width: 95%;
 	height: 50%;
 	margin: 3% 1% 1% 1%;
-	padding: 1% 0%;
+	padding: 2% 0%;
 }
 
 #topMargin {
 	margin-top: 2%
 }
 
+#textOne {
+	width: 89%;
+	margin: 1%;
+	padding-bottom: 11.3%;
+	height: 50%;
+}
+
 #customHeight {
-	padding-bottom: 17%;
+	padding-bottom: 21.5%;
+}
+
+#titleTwo {
+	margin-top: 4%;
 }
 
 .aboutText {
@@ -239,16 +250,27 @@ img {
 	height: 50%;
 }
 
-.imageOne, .imageTwo {
+.imageOne {
 	width: 35%;
 	height: 35%;
 	float: left;
 	
 }
 
+.imageTwo {
+	padding-left: 2%;
+	width: 42%;
+	height: 42%;
+	float: left;
+}
+
 .floatLeft {
 	float: left;
 	width: 45%;
+}
+
+#spacingLeft {
+	margin-left: 8%;
 }
 
 #homeButton {
