@@ -46,7 +46,7 @@ img {
 
 /* Style specifically the main header area for the home page */
 .mainHeader {
-	background-image: url(desert.jpg);
+	background-image: url(desert-4k.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -57,7 +57,7 @@ img {
 
 /* Style specifically the secondary header area for the home page */
 .secondaryHeader {
-	background-image: url(desert.jpg);
+	background-image: url(desert-4k.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
