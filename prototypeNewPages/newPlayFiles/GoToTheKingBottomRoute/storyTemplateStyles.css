@@ -34,7 +34,7 @@ p {
 
 /* Style specifically the main header area for the home page */
 .mainHeader {
-	background-image: url(desert-4k-Cropped.png);
+	background-image: url(desert.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
@@ -217,6 +217,11 @@ p {
 .choicesOne {
 	margin: 0% auto 0% auto;
 	padding: 10.2% 2%;
+}
+
+.fourChoices {
+	margin: 0% auto 0% auto;
+	padding: 	6.9% 2%;
 }
 
 .oneChoice {
