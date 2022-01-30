@@ -3,8 +3,6 @@
 <html>
 <!-- Header -->
 	<head>
-		<meta http-equiv="refresh" content="seconds"; url="/InteractiveWebComic/ContactPage.php" />
-
 		<title>Square Square | Contact</title>
 		
 		<link rel="stylesheet" type="text/css" href="newStyles.css">
