@@ -1,6 +1,0 @@
-var contactpage = document.getelementById(“contactpage”);
-var submitBtn = document.getElementById(submitBtn); 
-
-funtion submitClick() {
-
-}
